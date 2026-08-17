@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: lsv_dbt
+    database: lsv_db  
+    schema: lsv_schema  
+    tables:
+      - name: bike
+      - name: weather
